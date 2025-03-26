@@ -7,7 +7,7 @@ public class Task2 {
         for (int i = 0; i < array.length; i++) {
             array[i] = rand.nextInt(100) + 1;
         }
-        
+    
         System.out.println("Array elements:");
         for (int num : array) {
             System.out.print(num + " ");
