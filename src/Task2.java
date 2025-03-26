@@ -13,7 +13,6 @@ public class Task2 {
             System.out.print(num + " ");
         }
         System.out.println();
-
         int min = array[0];
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
@@ -24,7 +23,6 @@ public class Task2 {
                 max = array[i];
             }
         }
-
         System.out.println("Minimum value: " + min);
         System.out.println("Maximum value: " + max);
     }
